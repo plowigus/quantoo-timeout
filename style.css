@@ -110,3 +110,26 @@ h4 {
 		margin-top: 30px;
 	}
 }
+
+
+@media screen and (min-width: 481px) and (max-width:991px) {
+	
+    .swiper-slide {
+		width: auto;
+		padding: 0 20px;
+	}
+
+	.card {
+		width: 100%;
+	}
+
+	img {
+		width: auto;
+        min-width: auto !important;
+        max-width: none;
+	}
+
+	.mob-m{
+		margin-top: 30px;
+	}
+}
