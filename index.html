@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container wrapper">
+        <div style="height: 100px;" class="row pt-30">
+            <div class="col-12">
+                <div class="div border h-100"></div>
+            </div>
+        </div>
+        <div class="row pt-30 h-200">
+            <div style="height:200px" class="col-3">
+                <div class="div border h-100"></div>
+            </div>
+            <div style="height:200px" class="col-6">
+                <div class="div border h-100"></div>
+            </div>
+            <div style="height:200px" class="col-3">
+                <div class="div border h-100"></div>
+            </div>
+        </div>
+
+        <div class="row pt-30 h-200">
+            <div style="height:200px" class="col flex-grow-1">
+                <div class="div border h-100"></div>
+            </div>
+            <div style="height:200px" class="col flex-grow-1">
+                <div class="div border h-100"></div>
+            </div>
+            <div style="height:200px" class="col-3 ">
+                <div class="div border h-100"></div>
+            </div>
+        </div>
+
+
+        <div class="row">
+           
+            <div style="height:400px" class="col-12 col-lg-6">
+                <div class="w-100 h-100 border">
+                    <div class="row w-100 h-100 d-flex justify-content-between m-0">
+                        <div class="col-3 bg-dark h-25 order-1 d-flex justify-content-center align-items-center"><h4>1</h4></div>
+                        <div class="col-3 bg-dark h-25 order-3 d-flex justify-content-center align-items-center"><h4>2</h4></div>
+                        <div class="col-6 bg-dark h-50 order-4 d-flex justify-content-center align-items-center align-self-end"><h4>3</h4></div>
+                        <div class="col-3 bg-dark h-25 order-2 d-flex justify-content-center align-items-center"><h4>4</h4></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="height:400px" class="col-12 col-lg-6">
+                <div class="w-100 h-100 border d-flex flex-column">
+                    <div class="h-50">
+                        <div class="h-50 bg-dark"></div>
+                    </div>
+                    <div class="h-50">
+                        <div class="h-50 bg-dark"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
+            slides-per-view="3">
+
+        </swiper-container>
+
+
+        <div class="col-12 py-4 swiper-container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    
+
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev next"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+
+                <div class="navi-wrapper">
+                <div class="swiper-button-prev-1 next"><</div>
+                <div class="swiper-button-next-1">></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./sript.js"></script>
+</body>
+
+</html>
